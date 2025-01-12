@@ -1,0 +1,128 @@
+[33mcommit 1ce11314d28f7bc9a8db32ace192f95ba55c90b8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Silvia <loveletter61@outlook.com>
+Date:   Sun Jan 12 11:31:02 2025 +0800
+
+    neau
+
+[1mdiff --git a/Tex/Abstract.tex b/Tex/Abstract.tex[m
+[1mindex 7987bb8..715c711 100644[m
+[1m--- a/Tex/Abstract.tex[m
+[1m+++ b/Tex/Abstract.tex[m
+[36m@@ -10,14 +10,14 @@[m
+ \zihao{-4}[m
+ % \setlength{\baselineskip}{20pt}[m
+ [m
+[31m-本文是东北大学博士学位论文\LaTeX模板使用说明文档[m
+[32m+[m[32m本文是东北农业大学学士学位论文\LaTeX模板使用说明文档[m
+ [m
+[31m-\keywords{东北大学; Latex模板; 说明文档;}% 中文关键词[m
+[32m+[m[32m\keywords{东北农业大学; Latex模板; 说明文档;}% 中文关键词[m
+ %-[m
+ %-> 英文摘要[m
+ %-[m
+ \chapter{Abstract}\chaptermark{Abstract}% 摘要标题[m
+ [m
+[31m-This is a help documentation of Latex template for the Ph.D. thesis in Northeastern University.[m
+[32m+[m[32mThis is a help documentation of Latex template for the Bachelor thesis in Northeast Agricultural University.[m
+ [m
+[31m-\englishkeywords{Northeastern University; Latex Template; Help documentation;}[m
+[32m+[m[32m\englishkeywords{Northeast Agricultural University; Latex Template; Help documentation;}[m
+[1mdiff --git a/Tex/Backmatter.tex b/Tex/Backmatter.tex[m
+[1mindex a9a005a..d02a2e3 100644[m
+[1m--- a/Tex/Backmatter.tex[m
+[1m+++ b/Tex/Backmatter.tex[m
+[36m@@ -7,7 +7,7 @@[m
+     (致谢)[m
+ }[m
+ [m
+[31m-\chapter{攻读博士学位期间取得的学术成果}[m
+[32m+[m[32m\chapter{攻读学士学位期间取得的学术成果}[m
+ [m
+ \section*{个人简历:}[m
+ [m
+[1mdiff --git a/Tex/Chap_Format.tex b/Tex/Chap_Format.tex[m
+[1mindex f720d76..4f8e67a 100644[m
+[1m--- a/Tex/Chap_Format.tex[m
+[1m+++ b/Tex/Chap_Format.tex[m
+[36m@@ -1,7 +1,7 @@[m
+ \chapter{排版格式}\label{chap:format}[m
+ [m
+ \section{引言}[m
+[31m-依据中华人民共和国《科学技术报告、学位论文和学术论文的编写格式》和东北大学学位论文格式改编，专为我校申请硕士、博士学位人员撰写打印论文时使用。本格式自发布日起实行。[m
+[32m+[m[32m依据中华人民共和国《科学技术报告、学位论文和学术论文的编写格式》和东北农业大学学位论文格式改编，专为我校申请硕士、学士学位人员撰写打印论文时使用。本格式自发布日起实行。[m
+ \section{学位论文主要部分}[m
+ 学位论文主要部分由前头部分、主体部分和结尾部分组成。[m
+ \subsection{前头部分}[m
+[36m@@ -26,7 +26,7 @@[m
+ \begin{itemize}[m
+     \item 参考文献[m
+     \item 致谢[m
+[31m-    \item 攻读博士学位期间取得的学术成果[m
+[32m+[m[32m    \item 攻读学士学位期间取得的学术成果[m
+     \item 作者从事科学研究和学习经历的简历[m
+     \item 可供参考的文献题录（只限必要时采用）[m
+     \item 索引（只限必要时采用）[m
+[36m@@ -45,9 +45,9 @@[m
+ [m
+ 页码：页码用阿拉伯数字连续编页，字号与正文字体相同，页底居中，数字两侧用圆点或一字横线修饰，如·3·或－3－。[m
+ [m
+[31m-页眉：自摘要页起加页眉，眉体可用单线或双线（二等线、文武线），页眉说明5号楷体，左端“东北大学硕士、博士学位论文”，右端“章号章题”。[m
+[32m+[m[32m页眉：自摘要页起加页眉，眉体可用单线或双线（二等线、文武线），页眉说明5号楷体，左端“东北农业大学硕士、学士学位论文”，右端“章号章题”。[m
+ [m
+[31m-封面：东北大学研究生（博士或硕士）学位论文标准封面（双A4）。[m
+[32m+[m[32m封面：东北农业大学研究生（学士或硕士）学位论文标准封面（双A4）。[m
+ [m
+ \section{体例}[m
+ [m
+[36m@@ -76,7 +76,7 @@[m
+     \end{center}[m
+ \end{table}[m
+ [m
+[31m-摘要、目录、参考文献、致谢、攻读博士学位期间取得的学术成果、个人简历等标题作为第一级标题排版。[m
+[32m+[m[32m摘要、目录、参考文献、致谢、攻读学士学位期间取得的学术成果、个人简历等标题作为第一级标题排版。[m
+ [m
+ \subsection{正文}[m
+ 汉字字体字号：正文字体小4号宋体。[m
+[36m@@ -265,10 +265,10 @@[m
+ [m
+ [2] Huang S C, Huang Y M, Shieh S M. Vibration and stability of a rotating shaft containing a transerse crack [J]. J Sound and Vibration, 1993, 162(3): 387-401.[m
+ [m
+[31m-[3] 周丽. 机械式挖掘机工作装置的优化与仿真[D]. 沈阳：东北大学，2000.[m
+[32m+[m[32m[3] 周丽. 机械式挖掘机工作装置的优化与仿真[D]. 沈阳：东北农业大学，2000.[m
+ [m
+ [m
+[31m-\subsection{攻读博士学位期间取得的学术成果}[m
+[32m+[m[32m\subsection{攻读学士学位期间取得的学术成果}[m
+ [m
+ 期刊格式：[m
+ [序号] 作者. 论文名称[J]. 期刊名称，年度，卷（期）：起止页码. （检索情况）（对应论文章[m
+[36m@@ -282,7 +282,7 @@[m
+ [m
+ [1] Huang S C, Huang Y M, Shieh S M. Vibration and stability of a rotating shaft containing a transerse crack[J]. J Sound and Vibration, 1993, 162(3): 387-401. （SCI检索）（对应论文第四章）[m
+ [m
+[31m-[2] 高航，张立成，周士昌. 高压辊磨机液压系统及其动态特性[J]. 东北大学学报，2000，21（1）：38-40. （EI检索）（对应论文第五章）[m
+[32m+[m[32m[2] 高航，张立成，周士昌. 高压辊磨机液压系统及其动态特性[J]. 东北农业大学学报，2000，21（1）：38-40. （EI检索）（对应论文第五章）[m
+ [m
+ [3] 刘加林. 多功能一次性压舌板：中国，92214985.2[P]. 1993-04-14. （对应论文第四章）[m
+ [m
+[36m@@ -293,7 +293,7 @@[m
+ [m
+ [1] 第一作者. Vibration and stability of a rotating shaft containing a transerse crack[J]. J Sound and Vibration, 1993, 162(3): 387-401. （SCI检索）（对应论文第四章）[m
+ [m
+[31m-[2] 第二作者. 高压辊磨机液压系统及其动态特性[J]. 东北大学学报，2000，21（1）：38-40. （EI检索）（对应论文第五章）[m
+[32m+[m[32m[2] 第二作者. 高压辊磨机液压系统及其动态特性[J]. 东北农业大学学报，2000，21（1）：38-40. （EI检索）（对应论文第五章）[m
+ [m
+ [3] 第二排序. 多功能一次性压舌板：中国，92214985.2[P]. 1993-04-14. （对应论文第四章）[m
+ [m
+[1mdiff --git a/Tex/Chap_Intro.tex b/Tex/Chap_Intro.tex[m
+[1mindex a4b5a33..d0c2032 100644[m
+[1m--- a/Tex/Chap_Intro.tex[m
+[1m+++ b/Tex/Chap_Intro.tex[m
+[36m@@ -2,15 +2,15 @@[m
+ [m
+ \section{背景}[m
+ [m
+[31m-考虑到许多同学可能缺乏\LaTeX{}使用经验，NEU-Thesis将\LaTeX{}的复杂性高度封装，开放出简单的接口，以便轻易使用。同时，对用\LaTeX{}撰写论文的一些主要难题，如制图、制表、文献索引等，进行了详细说明，并提供了相应的代码样本，理解了上述问题后，对于初学者而言，使用此模板撰写学位论文将不存在实质性的困难。所以，如果你是初学者，请不要直接放弃，因为同样为初学者的我，十分明白让\LaTeX{}简单易用的重要性，而这正是neuthesis所追求和体现的。[m
+[32m+[m[32m考虑到许多同学可能缺乏\LaTeX{}使用经验，NEU-Thesis将\LaTeX{}的复杂性高度封装，开放出简单的接口，以便轻易使用。同时，对用\LaTeX{}撰写论文的一些主要难题，如制图、制表、文献索引等，进行了详细说明，并提供了相应的代码样本，理解了上述问题后，对于初学者而言，使用此模板撰写学位论文将不存在实质性的困难。所以，如果你是初学者，请不要直接放弃，因为同样为初学者的我，十分明白让\LaTeX{}简单易用的重要性，而这正是neauthesis所追求和体现的。[m
+ [m
+[31m-该模板基于中国科学院大学学位论文模板causthesis模板发展而来。neuthesi
